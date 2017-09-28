@@ -5,6 +5,7 @@ feature "creating url" do
   end
 
   scenario "Making new url" do
-    visit '/urls/new'
+    visit '/urls/'
+    click_link "Shorten a Url!"
   end
 end
